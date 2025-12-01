@@ -1,1 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://TU_USUARIO.github.io/comparador-precios/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://TU_USUARIO.github.io/comparador-precios/#tiendas</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://TU_USUARIO.github.io/comparador-precios/#regiones</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://TU_USUARIO.github.io/comparador-precios/#search-results</loc>
+    <priority>0.90</priority>
+  </url>
+
+</urlset>
