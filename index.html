@@ -26,7 +26,7 @@
     <meta name="ICBM" content="-9.189967, -74.789915">
     <meta http-equiv="content-language" content="es-PE">
 
-    <!-- OPEN GRAPH (FACEBOOK, WHATSAPP) -->
+    <!-- OPEN GRAPH -->
     <meta property="og:title" content="Comparador de Precios Perú - LATAN VILLEGAS AVELINO">
     <meta property="og:description" content="Encuentra los mejores precios en miles de tiendas en Perú. Compara y ahorra con datos actualizados.">
     <meta property="og:image" content="https://LatanVillegasAvelino.github.io/Compara-Precios-/preview.png">
@@ -60,7 +60,7 @@
     <!-- MANIFEST PWA -->
     <link rel="manifest" href="manifest.json">
 
-    <!-- FAVICON SIMPLE (puedes cambiarlo luego) -->
+    <!-- FAVICON SIMPLE -->
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23667eea'/%3E%3Ctext x='50' y='55' font-size='50' text-anchor='middle' fill='white'%3EP%3C/text%3E%3C/svg%3E">
 
     <!-- ESTILOS PERSONALIZADOS -->
@@ -275,7 +275,7 @@
                 <p id="results-count" class="text-sm text-gray-500"></p>
             </div>
             <div id="results-container" class="space-y-4 md:space-y-6">
-                <!-- Los resultados se dibujan aquí por JS -->
+                <!-- Resultados vía JS -->
             </div>
         </div>
     </section>
@@ -288,7 +288,8 @@
             </h2>
             
             <div class="store-grid">
-                <div class="bg-white p-6 rounded-lg shadow-lg card-hover text-center">
+                <!-- Cada tarjeta completa es clicable -->
+                <a href="https://www.falabella.com.pe/falabella-pe" target="_blank" class="bg-white p-6 rounded-lg shadow-lg card-hover text-center block">
                     <div class="w-14 h-14 md:w-16 md:h-16 bg-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                         <span class="text-white font-bold text-lg md:text-xl">S</span>
                     </div>
@@ -299,9 +300,9 @@
                             Verificada
                         </span>
                     </div>
-                </div>
+                </a>
 
-                <div class="bg-white p-6 rounded-lg shadow-lg card-hover text-center">
+                <a href="https://simple.ripley.com.pe" target="_blank" class="bg-white p-6 rounded-lg shadow-lg card-hover text-center block">
                     <div class="w-14 h-14 md:w-16 md:h-16 bg-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                         <span class="text-white font-bold text-lg md:text-xl">R</span>
                     </div>
@@ -312,9 +313,9 @@
                             Verificada
                         </span>
                     </div>
-                </div>
+                </a>
 
-                <div class="bg-white p-6 rounded-lg shadow-lg card-hover text-center">
+                <a href="https://www.plazavea.com.pe" target="_blank" class="bg-white p-6 rounded-lg shadow-lg card-hover text-center block">
                     <div class="w-14 h-14 md:w-16 md:h-16 bg-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                         <span class="text-white font-bold text-lg md:text-xl">P</span>
                     </div>
@@ -325,9 +326,9 @@
                             Verificada
                         </span>
                     </div>
-                </div>
+                </a>
 
-                <div class="bg-white p-6 rounded-lg shadow-lg card-hover text-center">
+                <a href="https://www.tottus.com.pe" target="_blank" class="bg-white p-6 rounded-lg shadow-lg card-hover text-center block">
                     <div class="w-14 h-14 md:w-16 md:h-16 bg-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                         <span class="text-white font-bold text-lg md:text-xl">T</span>
                     </div>
@@ -338,9 +339,9 @@
                             Verificada
                         </span>
                     </div>
-                </div>
+                </a>
 
-                <div class="bg-white p-6 rounded-lg shadow-lg card-hover text-center">
+                <a href="https://www.metro.pe" target="_blank" class="bg-white p-6 rounded-lg shadow-lg card-hover text-center block">
                     <div class="w-14 h-14 md:w-16 md:h-16 bg-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                         <span class="text-white font-bold text-lg md:text-xl">M</span>
                     </div>
@@ -351,9 +352,9 @@
                             Verificada
                         </span>
                     </div>
-                </div>
+                </a>
 
-                <div class="bg-white p-6 rounded-lg shadow-lg card-hover text-center">
+                <a href="https://www.oechsle.pe" target="_blank" class="bg-white p-6 rounded-lg shadow-lg card-hover text-center block">
                     <div class="w-14 h-14 md:w-16 md:h-16 bg-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                         <span class="text-white font-bold text-lg md:text-xl">O</span>
                     </div>
@@ -364,7 +365,7 @@
                             Verificada
                         </span>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="text-center mt-10">
@@ -378,7 +379,7 @@
         </div>
     </section>
 
-    <!-- Regiones Section -->
+    <!-- Regiones -->
     <section id="regiones" class="py-12 md:py-16 bg-white">
         <div class="mx-auto px-4">
             <h2 class="text-2xl md:text-3xl font-semibold text-center mb-8 text-gray-800">
@@ -464,7 +465,7 @@
             </div>
 
             <div id="region-content" class="bg-gray-50 rounded-lg p-6 md:p-8">
-                <!-- Contenido de región rellenado por JS -->
+                <!-- JS inserta el contenido -->
             </div>
         </div>
     </section>
@@ -514,6 +515,7 @@
 </footer>
 
 <script>
+document.addEventListener("DOMContentLoaded", () => {
     const defaultConfig = {
         site_title: "LATAN VILLEGAS AVELINO",
         hero_title: "Compara precios en todo el Perú",
@@ -521,25 +523,38 @@
         search_placeholder: "¿Qué producto buscas?"
     };
 
+    const searchInput = document.getElementById("search-input");
+    const searchButton = document.getElementById("search-button");
+    const searchResultsSection = document.getElementById("search-results");
+    const resultsContainer = document.getElementById("results-container");
+    const resultsCount = document.getElementById("results-count");
+    const regionContent = document.getElementById("region-content");
+    const regionTabs = document.querySelectorAll(".region-tab");
+
+    if (!searchInput || !searchButton || !resultsContainer || !regionContent) {
+        console.error("Faltan elementos clave en el HTML (ids incorrectos).");
+        return;
+    }
+
     const demoProducts = [
         {
             id: 1,
-            name: 'Laptop gamer 15\" Ryzen 7 16GB RAM 512GB SSD',
+            name: 'Laptop gamer 15" Ryzen 7 16GB RAM 512GB SSD',
             category: 'Tecnología',
             minPrice: 3299,
             maxPrice: 3999,
             storesCount: 4,
-            urlBestStore: '#',
+            urlBestStore: 'https://www.falabella.com.pe/falabella-pe',
             urlAllStores: '#'
         },
         {
             id: 2,
-            name: 'Smart TV 55\" 4K UHD',
+            name: 'Smart TV 55" 4K UHD',
             category: 'Electrohogar',
             minPrice: 1499,
             maxPrice: 1899,
             storesCount: 5,
-            urlBestStore: '#',
+            urlBestStore: 'https://simple.ripley.com.pe',
             urlAllStores: '#'
         },
         {
@@ -549,7 +564,7 @@
             minPrice: 899,
             maxPrice: 1299,
             storesCount: 6,
-            urlBestStore: '#',
+            urlBestStore: 'https://www.plazavea.com.pe',
             urlAllStores: '#'
         }
     ];
@@ -582,14 +597,6 @@
         callao: { name: "Callao", stores: 150, products: "40K", districts: 5, savings: "21%" }
     };
 
-    const searchInput = document.getElementById("search-input");
-    const searchButton = document.getElementById("search-button");
-    const searchResultsSection = document.getElementById("search-results");
-    const resultsContainer = document.getElementById("results-container");
-    const resultsCount = document.getElementById("results-count");
-    const regionContent = document.getElementById("region-content");
-    const regionTabs = document.querySelectorAll(".region-tab");
-
     function formatCurrency(value) {
         return "S/ " + value.toLocaleString("es-PE");
     }
@@ -603,7 +610,7 @@
                     No se encontraron resultados para tu búsqueda. Prueba con otro término.
                 </div>
             `;
-            resultsCount.textContent = "0 resultados";
+            if (resultsCount) resultsCount.textContent = "0 resultados";
             return;
         }
 
@@ -628,7 +635,7 @@
                     Comparando precios en ${p.storesCount} tiendas (datos de ejemplo).
                 </div>
                 <div class="result-actions">
-                    <a href="${p.urlBestStore}" class="result-btn-primary">
+                    <a href="${p.urlBestStore}" target="_blank" class="result-btn-primary">
                         Ver mejor precio
                     </a>
                     <a href="${p.urlAllStores}" class="result-btn-secondary">
@@ -640,7 +647,9 @@
             resultsContainer.appendChild(card);
         });
 
-        resultsCount.textContent = `${products.length} resultado(s)`;
+        if (resultsCount) {
+            resultsCount.textContent = `${products.length} resultado(s)`;
+        }
     }
 
     function searchProducts() {
@@ -697,20 +706,25 @@
     }
 
     function showAllStores() {
-        alert("Aquí más adelante puedes mostrar un listado completo de tiendas o un buscador de tiendas. Por ahora es solo demo.");
+        alert("Demo: aquí en el futuro podrás listar todas las tiendas con filtros y buscador.");
     }
 
+    // Exponer funciones globalmente para los onclick del HTML
+    window.showRegion = showRegion;
+    window.showAllStores = showAllStores;
+
+    // Eventos
     searchButton.addEventListener("click", searchProducts);
     searchInput.addEventListener("keyup", (e) => {
         if (e.key === "Enter") searchProducts();
     });
 
-    document.addEventListener("DOMContentLoaded", () => {
-        document.getElementById("hero-title").textContent = defaultConfig.hero_title;
-        document.getElementById("hero-subtitle").textContent = defaultConfig.hero_subtitle;
-        searchInput.placeholder = defaultConfig.search_placeholder;
-        showRegion("lima");
-    });
+    // Estado inicial
+    document.getElementById("hero-title").textContent = defaultConfig.hero_title;
+    document.getElementById("hero-subtitle").textContent = defaultConfig.hero_subtitle;
+    searchInput.placeholder = defaultConfig.search_placeholder;
+    showRegion("lima");
+});
 </script>
 
 </body>
