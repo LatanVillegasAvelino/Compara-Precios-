@@ -1,1 +1,4 @@
-
+Contact: mailto:info@latanvillegasavelino.com
+Expires: 2026-01-01T00:00:00.000Z
+Preferred-Languages: es, en
+Policy: https://TU_USUARIO.github.io/comparador-precios/
